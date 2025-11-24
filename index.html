@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeDrop Blood Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">LifeDrop</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#types">Blood Types</a></li>
+                <li><a href="#register">Donate Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Donate Blood, Save a Life.</h1>
+            <p>Every minute, someone needs blood. Be a hero today.</p>
+            <button id="cta-button" class="cta">Find a Donation Center</button>
+        </div>
+    </section>
+
+    <section id="types" class="types-section">
+        <h2>Understanding Blood Types</h2>
+        <div class="types-container">
+            </div>
+    </section>
+
+    <section id="register" class="form-section">
+        <h2>Register to Donate / Ask a Question</h2>
+        <form id="donation-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message/Inquiry:</label>
+                <textarea id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="cta submit-btn">Submit Inquiry</button>
+            <p id="form-message" class="hidden"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LifeDrop Blood Bank. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
